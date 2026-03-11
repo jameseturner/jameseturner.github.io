@@ -2,80 +2,88 @@
 @font-face {
   font-family: 'ClashDisplay';
   src: url('./WEB2/fonts/ClashDisplay-Bold.woff2') format('woff2'),
-       url('./WEB2/fonts/ClashDisplay-Bold.woff') format('woff'),
-       url('./WEB2/fonts/ClashDisplay-Bold.ttf') format('truetype'),
-       url('./WEB2/fonts/ClashDisplay-Bold.eot') format('embedded-opentype');
+    url('./WEB2/fonts/ClashDisplay-Bold.woff') format('woff'),
+    url('./WEB2/fonts/ClashDisplay-Bold.ttf') format('truetype'),
+    url('./WEB2/fonts/ClashDisplay-Bold.eot') format('embedded-opentype');
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Gambarino';
   src: url('./WEB/fonts/Gambarino-Regular.woff2') format('woff2'),
-       url('./WEB/fonts/Gambarino-Regular.woff') format('woff'),
-       url('./WEB/fonts/Gambarino-Regular.ttf') format('truetype'),
-       url('./WEB/fonts/Gambarino-Regular.eot') format('embedded-opentype');
+    url('./WEB/fonts/Gambarino-Regular.woff') format('woff'),
+    url('./WEB/fonts/Gambarino-Regular.ttf') format('truetype'),
+    url('./WEB/fonts/Gambarino-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Oswald';
   src: url('./Oswald/fonts/Oswald-Regular.woff2') format('woff2'),
-       url('./Oswald/fonts/Oswald-Regular.woff') format('woff'),
-       url('./Oswald/fonts/Oswald-Regular.ttf') format('truetype'),
-       url('./Oswald/fonts/Oswald-Regular.eot') format('embedded-opentype');
+    url('./Oswald/fonts/Oswald-Regular.woff') format('woff'),
+    url('./Oswald/fonts/Oswald-Regular.ttf') format('truetype'),
+    url('./Oswald/fonts/Oswald-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 /* AuthorComplete Font */
 @font-face {
   font-family: 'AuthorComplete';
   src: url('./Author_complete/fonts/Author-Regular.woff2') format('woff2'),
-       url('./Author_complete/fonts/Author-Regular.woff') format('woff'),
-       url('./Author_complete/fonts/Author-Regular.ttf') format('truetype'),
-       url('./Author_complete/fonts/Author-Regular.eot') format('embedded-opentype');
+    url('./Author_complete/fonts/Author-Regular.woff') format('woff'),
+    url('./Author_complete/fonts/Author-Regular.ttf') format('truetype'),
+    url('./Author_complete/fonts/Author-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'AuthorComplete';
   src: url('./Author_complete/fonts/Author-Semibold.woff2') format('woff2'),
-       url('./Author_complete/fonts/Author-Semibold.woff') format('woff'),
-       url('./Author_complete/fonts/Author-Semibold.ttf') format('truetype'),
-       url('./Author_complete/fonts/Author-Semibold.eot') format('embedded-opentype');
+    url('./Author_complete/fonts/Author-Semibold.woff') format('woff'),
+    url('./Author_complete/fonts/Author-Semibold.ttf') format('truetype'),
+    url('./Author_complete/fonts/Author-Semibold.eot') format('embedded-opentype');
   font-weight: 600;
   font-style: normal;
 }
+
 /* Rosaline Font */
 @font-face {
   font-family: 'Rosaline';
   src: url('./WEB/fonts/Rosaline-Regular.woff2') format('woff2'),
-       url('./WEB/fonts/Rosaline-Regular.woff') format('woff'),
-       url('./WEB/fonts/Rosaline-Regular.ttf') format('truetype'),
-       url('./WEB/fonts/Rosaline-Regular.eot') format('embedded-opentype');
+    url('./WEB/fonts/Rosaline-Regular.woff') format('woff'),
+    url('./WEB/fonts/Rosaline-Regular.ttf') format('truetype'),
+    url('./WEB/fonts/Rosaline-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 /* Rosaline usage for astrophysicist */
 .rosaline {
   font-family: 'Rosaline', 'Segoe UI', Arial, sans-serif;
   font-weight: normal;
 }
+
 /* Synonym Regular Font */
 @font-face {
   font-family: 'SynonymRegular';
   src: url('./synonym complete/fonts/Synonym-Regular.woff2') format('woff2'),
-       url('./synonym complete/fonts/Synonym-Regular.woff') format('woff'),
-       url('./synonym complete/fonts/Synonym-Regular.ttf') format('truetype'),
-       url('./synonym complete/fonts/Synonym-Regular.eot') format('embedded-opentype');
+    url('./synonym complete/fonts/Synonym-Regular.woff') format('woff'),
+    url('./synonym complete/fonts/Synonym-Regular.ttf') format('truetype'),
+    url('./synonym complete/fonts/Synonym-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 /* Erode Regular Font */
 @font-face {
   font-family: 'ErodeRegular';
   src: url('./Erode_Complete/Fonts/WEB/fonts/Erode-Regular.woff2') format('woff2'),
-       url('./Erode_Complete/Fonts/WEB/fonts/Erode-Regular.woff') format('woff'),
-       url('./Erode_Complete/Fonts/WEB/fonts/Erode-Regular.ttf') format('truetype');
+    url('./Erode_Complete/Fonts/WEB/fonts/Erode-Regular.woff') format('woff'),
+    url('./Erode_Complete/Fonts/WEB/fonts/Erode-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -87,6 +95,7 @@ body {
   background: #972e00;
   color: #222;
 }
+
 /* Main Section */
 .main-section {
   position: relative;
@@ -96,6 +105,7 @@ body {
   display: block;
   overflow: hidden;
 }
+
 /* Grain Overlay covers entire viewport */
 .grain {
   pointer-events: none;
@@ -108,12 +118,14 @@ body {
   opacity: 0.5;
   mix-blend-mode: normal;
 }
+
 /* Content Layout */
 .main-content {
   position: relative;
   z-index: 2;
   text-align: center;
 }
+
 /* Main Title */
 .big-title {
   font-family: 'Gambarino', 'Segoe UI', Arial, sans-serif;
@@ -129,41 +141,60 @@ body {
   line-height: 1.05;
   pointer-events: none;
 }
+
 @media (max-width: 900px) {
   .big-title {
     font-size: min(16vw, 7rem);
   }
 }
+
 @media (max-width: 600px) {
   .big-title {
     font-size: min(22vw, 4rem);
   }
 }
+
 /* Staggered Lines */
 .big-title .line {
   display: block;
   position: relative;
 }
-.big-title .line1 { margin-right: 0; }
-.big-title .line2 { margin-right: 1.5vw; }
-.big-title .line3 { margin-right: 1vw; }
-.big-title .line4 { margin-right: 2vw; }
+
+.big-title .line1 {
+  margin-right: 0;
+}
+
+.big-title .line2 {
+  margin-right: 1.5vw;
+}
+
+.big-title .line3 {
+  margin-right: 1vw;
+}
+
+.big-title .line4 {
+  margin-right: 2vw;
+}
+
 /* ClashDisplay Spans */
 .big-title .clash {
   font-family: 'ClashDisplay', 'Segoe UI', Arial, sans-serif;
   font-weight: bold;
 }
+
 /*.subtitle */
 .subtitle {
   font-size: 2rem;
   color: #fff8e1;
   margin-bottom: 2rem;
 }
+
 /* Portfolio Section */
 .portfolio-section {
   padding: 2rem 0;
   background: #ffe0b2;
 }
+
 /* Projects title coloring */
 .portfolio-section h2 {
   color: #972e00;
@@ -174,12 +205,14 @@ body {
   margin-bottom: 1rem;
   margin-top: -3rem;
 }
+
 /* Projects Grid Layout */
 /* Projects Carousel Layout */
 .projects {
   display: flex;
   overflow-x: auto;
-  -webkit-user-select: none; /* disable text selection */
+  -webkit-user-select: none;
+  /* disable text selection */
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -188,18 +221,24 @@ body {
   margin: 4rem 2rem;
   padding-bottom: 1rem;
   cursor: grab;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-  scroll-behavior: smooth; /* Smooth scroll for programmatic scrolls */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scroll-behavior: smooth;
+  /* Smooth scroll for programmatic scrolls */
 }
+
 .projects.active {
   cursor: grabbing;
 }
+
 /* Hide scrollbar for WebKit browsers */
 /* Hide scrollbar for WebKit browsers */
 .projects::-webkit-scrollbar {
   display: none;
 }
+
 /* Carousel Indicators */
 .carousel-indicators {
   display: flex;
@@ -207,6 +246,7 @@ body {
   gap: 0.5rem;
   padding-top: 1rem;
 }
+
 .carousel-indicators .dot {
   width: 12px;
   height: 12px;
@@ -215,6 +255,7 @@ body {
   transition: background 0.3s ease;
   cursor: pointer;
 }
+
 .carousel-indicators .dot.active {
   background: #972e00;
 }
@@ -222,34 +263,40 @@ body {
 /* Project card styling (consolidated & enhanced) */
 .project-card {
   background: linear-gradient(135deg, #ffffff 0%, #fff7ef 100%);
-  border: 1px solid rgba(151,46,0,0.12);
+  border: 1px solid rgba(151, 46, 0, 0.12);
   border-radius: 16px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   position: relative;
-  transition: transform .4s cubic-bezier(.25,.8,.25,1), box-shadow .4s ease;
-  height: 450px; /* Fixed height for uniform size */
-  flex: 0 0 800px; /* Fixed width for uniform size */
-  width: 800px; /* Ensure consistent card width */
+  transition: transform .4s cubic-bezier(.25, .8, .25, 1), box-shadow .4s ease;
+  height: 450px;
+  /* Fixed height for uniform size */
+  flex: 0 0 800px;
+  /* Fixed width for uniform size */
+  width: 800px;
+  /* Ensure consistent card width */
   /* Prevent text and image selection */
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
 }
+
 .project-card::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 20%, rgba(151,46,0,0.08), transparent 60%);
+  background: radial-gradient(circle at 30% 20%, rgba(151, 46, 0, 0.08), transparent 60%);
   pointer-events: none;
 }
+
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
 }
+
 .project-card img {
   display: block;
   width: 100%;
@@ -269,6 +316,7 @@ body {
   -o-user-drag: none;
   pointer-events: none;
 }
+
 .project-card-title {
   font-family: 'ClashDisplay', sans-serif;
   font-size: 1.6rem;
@@ -276,6 +324,7 @@ body {
   color: #972e00;
   letter-spacing: .5px;
 }
+
 .project-card-description {
   flex: 1;
   margin: 0 1.25rem 1.25rem;
@@ -284,13 +333,17 @@ body {
   font-family: 'Oswald', Arial, sans-serif;
   color: #5a3b2a;
 }
-.project-card:last-child { margin-bottom: 0; }
+
+.project-card:last-child {
+  margin-bottom: 0;
+}
 
 /* Project card actions (buttons) */
 .project-card-actions {
   padding: 0 1.25rem 1.25rem;
   display: flex;
   justify-content: flex-start;
+  gap: 1rem;
 }
 
 .download-report-btn {
@@ -327,15 +380,19 @@ body {
 .download-report-btn i {
   font-size: 0.85rem;
 }
+
 /* About Me Section (styled like main) */
 /* About Me Section (styled like main) */
 .about-section {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
-  min-height: 100vh;    /* increased height */
-  padding: 6rem 4rem;   /* extra vertical padding */
-  background: #972e00; /* same orange */
+  min-height: 100vh;
+  /* increased height */
+  padding: 6rem 4rem;
+  /* extra vertical padding */
+  background: #972e00;
+  /* same orange */
   color: #fff;
 }
 
@@ -360,7 +417,8 @@ body {
   font-family: 'ClashDisplay', sans-serif;
   font-size: clamp(3rem, 8vw, 6rem);
   font-weight: bold;
-  margin-top: -1rem; /* move title up slightly */
+  margin-top: -1rem;
+  /* move title up slightly */
   margin-bottom: 1rem;
   color: #ffe0b2;
 }
@@ -370,21 +428,25 @@ body {
   font-size: 1.5rem;
   line-height: 1.6;
 }
+
 /* About Me subsections */
 .about-subsection {
   margin-top: 1.5rem;
 }
+
 .about-subsection h3 {
   font-family: 'ClashDisplay', sans-serif;
   font-size: 2rem;
   margin-bottom: 0.5rem;
   color: #ffe0b2;
 }
+
 .about-subsection p {
   font-family: 'ErodeRegular', sans-serif;
   margin: 0 0 1rem;
   font-size: 1.5rem;
 }
+
 /* Skills tiles container and individual tiles */
 .skill-tiles {
   display: flex;
@@ -392,6 +454,7 @@ body {
   gap: 0.75rem;
   margin-top: 0.75rem;
 }
+
 .skill-tile {
   background: rgba(255, 224, 178, 0.3);
   color: #ffe0b2;
@@ -409,33 +472,41 @@ body {
   gap: 1rem;
   margin-top: 2rem;
 }
+
 .about-images img {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
+
 /* Footer */
 .site-footer {
   background: #444;
   color: #d7c5a1;
   padding: 2rem 1rem;
-  position: relative; /* For positioning context */
+  position: relative;
+  /* For positioning context */
 }
+
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* full width, no auto margin */
+  width: 100%;
+  /* full width, no auto margin */
 }
+
 .footer-name.clash {
   font-family: 'ClashDisplay', Arial, sans-serif;
   font-size: min(10vw, 14rem);
   letter-spacing: 0.03em;
   line-height: 1.05;
   font-weight: bold;
-  margin: 0; /* flush left */
+  margin: 0;
+  /* flush left */
 }
+
 .social-links {
   display: flex;
   flex-direction: column;
@@ -443,6 +514,7 @@ body {
   flex: 1;
   gap: 1rem;
 }
+
 /* Updated Social Media Button Styles */
 .social-links .social-button {
   text-decoration: none;
@@ -455,11 +527,13 @@ body {
   padding: 0;
   transition: color 0.2s ease;
 }
+
 .social-links .social-button:hover {
   color: #d7c5a1;
   background: none;
   box-shadow: none;
 }
+
 /* End Updated Social Media Button Styles */
 
 .go-to-top {
@@ -469,10 +543,13 @@ body {
   color: #fff8e1;
   text-decoration: none;
   transition: color 0.2s ease;
-  display: inline-flex; /* Use inline-flex for better alignment */
+  display: inline-flex;
+  /* Use inline-flex for better alignment */
   align-items: center;
-  position: absolute; /* Needed for absolute positioning of the arrow */
-  padding: 0.5rem 1rem 0.5rem 0rem; /* Add padding for the arrow */
+  position: absolute;
+  /* Needed for absolute positioning of the arrow */
+  padding: 0.5rem 1rem 0.5rem 0rem;
+  /* Add padding for the arrow */
   line-height: 1;
   right: 3%;
   top: 60%
@@ -491,13 +568,16 @@ body {
   left: 95%;
   top: 50%;
   transform: translateY(-50%);
-  width: 50px; /* Increased size */
-  height: 50px; /* Increased size */
+  width: 50px;
+  /* Increased size */
+  height: 50px;
+  /* Increased size */
   transition: transform 0.3s ease;
 }
 
 .go-to-top:hover .back-to-top-arrow {
-  transform: translatey(-50%) translateY(-4px); /* Adjust hover effect */
+  transform: translatey(-50%) translateY(-4px);
+  /* Adjust hover effect */
 }
 
 /* Message button inherits base social-button styles */
@@ -520,24 +600,30 @@ body {
   text-align: right;
   z-index: 10000;
 }
+
 .top-nav a {
-  font-family: 'Oswald', Arial, sans-serif; /* use local Oswald font */
+  font-family: 'Oswald', Arial, sans-serif;
+  /* use local Oswald font */
   font-size: 1.3rem;
   color: #fff8e1;
   font-weight: 100;
   text-decoration: underline;
-  margin: 0 4vw; /* Responsive margin for smaller screens */
+  margin: 0 4vw;
+  /* Responsive margin for smaller screens */
   display: inline-block;
-  transition: margin 0.3s ease-out; /* Smooth transition for resizing */
+  transition: margin 0.3s ease-out;
+  /* Smooth transition for resizing */
 }
 
 @media (min-width: 1800px) {
   .top-nav a {
-    margin: 0 12rem; /* Larger fixed margin for very wide screens */
+    margin: 0 12rem;
+    /* Larger fixed margin for very wide screens */
   }
 }
- .top-nav a:hover,
- .top-nav a.active {
+
+.top-nav a:hover,
+.top-nav a.active {
   text-decoration: underline;
   color: #fff8e1;
 }
@@ -551,56 +637,103 @@ body {
 /* Old Projects Title Marquee - REMOVED */
 
 /* Accessible hide utility */
-.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 /* Projects Title Infinite Marquee */
-.projects-title-container { 
-  position: relative; 
-  width: 100%; 
+.projects-title-container {
+  position: relative;
+  width: 100%;
   overflow: hidden;
-    margin: 0;
+  margin: 0;
   border-top: 1px solid rgba(215, 197, 161, 0.3);
   border-bottom: 1px solid rgba(215, 197, 161, 0.3);
 }
-.projects-title-marquee { 
-  width: 100%; 
+
+.projects-title-marquee {
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
 }
+
 .projects-title-track {
   display: inline-flex;
   gap: 3rem;
-  padding: 0.5rem 0; /* add vertical padding for descenders */
+  padding: 0.5rem 0;
+  /* add vertical padding for descenders */
   font-family: 'Gambarino', 'Segoe UI', Arial, sans-serif;
   font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 600;    /* thicker weight */
-  line-height: 1.2;    /* increased line-height for descenders */
+  font-weight: 600;
+  /* thicker weight */
+  line-height: 1.2;
+  /* increased line-height for descenders */
   color: #972e00;
   animation: projects-title-marquee 40s linear infinite;
   will-change: transform;
 }
-.projects-title-track span { 
+
+.projects-title-track span {
   flex: 0 0 auto;
   white-space: nowrap;
 }
+
 /* Removed hover pause to ensure continuous sliding */
-@keyframes projects-title-marquee { 
-  0% { transform: translateX(0); } 
-  100% { transform: translateX(-50%); } 
+@keyframes projects-title-marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
-  /* Cycle different fonts for each 'Projects' instance (now 8 fonts) */
-  .projects-title-track span:nth-child(8n+1) { font-family: 'ClashDisplay', sans-serif; }
-  .projects-title-track span:nth-child(8n+2) { font-family: 'Gambarino', sans-serif; }
-  .projects-title-track span:nth-child(8n+3) { font-family: 'Oswald', sans-serif; }
-  .projects-title-track span:nth-child(8n+4) { font-family: 'AuthorComplete', sans-serif; }
-  .projects-title-track span:nth-child(8n+5) { font-family: 'Rosaline', sans-serif; }
-  .projects-title-track span:nth-child(8n+6) { font-family: 'SynonymRegular', sans-serif; }
-  .projects-title-track span:nth-child(8n+7) { font-family: 'Segoe UI', Arial, sans-serif; }
-  .projects-title-track span:nth-child(8n+8) { font-family: 'Arial', sans-serif; }
+
+/* Cycle different fonts for each 'Projects' instance (now 8 fonts) */
+.projects-title-track span:nth-child(8n+1) {
+  font-family: 'ClashDisplay', sans-serif;
+}
+
+.projects-title-track span:nth-child(8n+2) {
+  font-family: 'Gambarino', sans-serif;
+}
+
+.projects-title-track span:nth-child(8n+3) {
+  font-family: 'Oswald', sans-serif;
+}
+
+.projects-title-track span:nth-child(8n+4) {
+  font-family: 'AuthorComplete', sans-serif;
+}
+
+.projects-title-track span:nth-child(8n+5) {
+  font-family: 'Rosaline', sans-serif;
+}
+
+.projects-title-track span:nth-child(8n+6) {
+  font-family: 'SynonymRegular', sans-serif;
+}
+
+.projects-title-track span:nth-child(8n+7) {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.projects-title-track span:nth-child(8n+8) {
+  font-family: 'Arial', sans-serif;
+}
 
 /* New Section - empty spacer */
 .new-section {
-  min-height: 20vh;  /* provide empty space with no content */
+  min-height: 20vh;
+  /* provide empty space with no content */
 }
 
 .contact-section {
@@ -609,14 +742,16 @@ body {
   background: url('dithered-image(2).png') left -7vw top 0/60vw auto no-repeat, #972e00;
   padding: 4rem 2rem;
 }
+
 .contact-content {
   max-width: 600px;
   margin: 0 auto;
   background: #fff;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
 }
+
 .contact-content h1 {
   font-family: 'ClashDisplay', sans-serif;
   font-size: 2.5rem;
@@ -624,6 +759,7 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 /* Smaller email note under main heading */
 .contact-email-note {
   display: block;
@@ -632,11 +768,13 @@ body {
   color: #444;
   margin-top: 0.5rem;
 }
+
 .contact-content label {
   display: block;
   margin: 1rem 0 0.5rem;
   font-weight: bold;
 }
+
 .contact-content input,
 .contact-content textarea {
   width: 100%;
@@ -645,6 +783,7 @@ body {
   border-radius: 6px;
   font-size: 1rem;
 }
+
 .contact-content button {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
@@ -656,6 +795,7 @@ body {
   cursor: pointer;
   transition: background 0.2s ease;
 }
+
 .contact-content button:hover {
   background: #b03b00;
 }
@@ -665,6 +805,7 @@ body {
   margin-top: 2.5rem;
   text-align: center;
 }
+
 .return-home-link {
   display: inline-flex;
   align-items: center;
@@ -679,41 +820,53 @@ body {
   padding: 0.4rem 1rem;
   transition: transform .25s ease, color .25s ease;
 }
+
 .return-home-link .back-arrow {
   font-size: 1.4rem;
   transform: translateY(-2px);
   transition: transform .25s ease;
 }
+
 .return-home-link:hover {
   color: #972e00;
   transform: translateY(-4px);
 }
+
 .return-home-link:hover .back-arrow {
   transform: translate(-4px, -2px);
 }
+
 /* End Return Home link */
 /* Responsive adjustments for smaller screens */
 @media (max-width: 900px) {
+
   /* Main title adjustments for mobile */
   .big-title {
-    position: static; /* Reset absolute positioning */
+    position: static;
+    /* Reset absolute positioning */
     top: auto;
     right: auto;
     width: 100%;
-    margin: 2rem -1rem; /* Reset negative margins */
-    text-align: right; /* Snap title to right edge */
+    margin: 2rem -1rem;
+    /* Reset negative margins */
+    text-align: right;
+    /* Snap title to right edge */
     line-height: 1.1;
   }
+
   /* Hide profile image on mobile */
   .about-image-container {
     display: none;
   }
+
   .big-title .line1,
   .big-title .line2,
   .big-title .line3,
   .big-title .line4 {
-    margin-right: 0; /* Remove offset margins */
+    margin-right: 0;
+    /* Remove offset margins */
   }
+
   /* Projects carousel: show one project per view */
   .projects {
     display: flex;
@@ -724,51 +877,62 @@ body {
     scroll-snap-type: x mandatory;
     cursor: grab;
   }
+
   .projects.active {
     cursor: grabbing;
   }
+
   .project-card {
     flex: 0 0 100%;
     width: 100%;
     height: auto;
-    margin: 0 1rem 0 0; /* spacing between cards */
+    margin: 0 1rem 0 0;
+    /* spacing between cards */
     scroll-snap-align: start;
   }
+
   .project-card img {
     max-height: 180px;
     margin: 0 auto 1rem;
   }
+
   /* Projects title font size smaller */
   .projects-title-track {
     font-size: clamp(2rem, 6vw, 4rem);
     gap: 1.5rem;
   }
+
   /* About section: column layout */
   .about-section {
     flex-direction: column;
     padding: 4rem 1rem;
   }
+
   .about-image-container,
   .about-text-container {
     flex: none;
     width: 100%;
   }
+
   /* Footer: center content and stack vertically */
   .site-footer .footer-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
+
   /* Back to top button: reset positioning */
   .go-to-top {
     position: static;
     margin: 2rem auto 0;
   }
+
   /* Remove dithered background image on mobile */
   .main-section,
   .contact-section {
     background: #972e00;
   }
+
   /* Adjust navigation and section spacing to prevent overlap */
   .top-nav {
     position: static;
@@ -776,41 +940,51 @@ body {
     padding: 1rem 0;
     z-index: auto;
   }
+
   /* Ensure main section has adequate padding */
   .main-section {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
   /* Add spacing between sections */
   .portfolio-section {
     margin-top: 4rem;
     padding: 2rem 1rem;
   }
+
   .about-section {
     margin-top: 4rem;
     padding: 2rem 1rem;
   }
+
   .site-footer {
     margin-top: 4rem;
     padding: 2rem 1rem;
   }
+
   /* Hide Back to top on mobile */
   .go-to-top {
     display: none !important;
   }
+
   /* Contact section: larger heading, smaller social buttons */
   .footer-name.clash {
     font-size: clamp(6rem, 12vw, 10rem);
   }
+
   .social-links .social-button {
     font-size: 2rem;
     margin: 0.5rem 0;
   }
 }
+
 /* Fix big-title clipping on very small screens */
 @media (max-width: 420px) {
   .big-title {
-    font-size: calc(8vw + 1rem); /* ensure legible on narrow screens */
-    margin: 2rem -1rem; /* add horizontal padding */
+    font-size: calc(8vw + 1rem);
+    /* ensure legible on narrow screens */
+    margin: 2rem -1rem;
+    /* add horizontal padding */
   }
 }

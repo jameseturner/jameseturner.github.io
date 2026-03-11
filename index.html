@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,11 @@
   <link rel="icon" type="image/png" href="images/icon.png">
   <link rel="stylesheet" href="style.css">
   <!-- Font Awesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pk6p5Yf7hQ6Q8a8OjY/8Lu8Qh1g9zxA+7rXz+ZPN6Fid4HvdJhju5ig3qF4J1r5W/o4e6OcG2Xjg2zzYTh3vEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pk6p5Yf7hQ6Q8a8OjY/8Lu8Qh1g9zxA+7rXz+ZPN6Fid4HvdJhju5ig3qF4J1r5W/o4e6OcG2Xjg2zzYTh3vEg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
   <!-- Move grain canvas to very top of body for full overlay -->
   <canvas class="grain" id="grain-canvas"></canvas>
@@ -24,7 +28,7 @@
     <div class="main-content">
       <h1 class="big-title">
         <span class="line line1">aspiring</span>
-  <span class="line line2">astrophysicist</span>
+        <span class="line line2">astrophysicist</span>
         <span class="line line3 clash">James</span>
         <span class="line line4 clash">Turner</span>
       </h1>
@@ -43,23 +47,23 @@
     function drawGrain() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       const time = performance.now() * 0.005;
-      
+
       // Much denser grain with smaller particles
       const grainCount = (canvas.width * canvas.height) / 5; // Increased density
-        // Full-screen pixel noise for visible grain
-        const w = canvas.width;
-        const h = canvas.height;
-        const imageData = ctx.createImageData(w, h);
-        const pixels = imageData.data;
-        for (let i = 0; i < pixels.length; i += 4) {
-          const v = (Math.random() * 255) | 0;
-          pixels[i] = v;
-          pixels[i + 1] = v;
-          pixels[i + 2] = v;
-          pixels[i + 3] = 50; // alpha (~0.2)
-        }
-        ctx.putImageData(imageData, 0, 0);
-        requestAnimationFrame(drawGrain);
+      // Full-screen pixel noise for visible grain
+      const w = canvas.width;
+      const h = canvas.height;
+      const imageData = ctx.createImageData(w, h);
+      const pixels = imageData.data;
+      for (let i = 0; i < pixels.length; i += 4) {
+        const v = (Math.random() * 255) | 0;
+        pixels[i] = v;
+        pixels[i + 1] = v;
+        pixels[i + 2] = v;
+        pixels[i + 3] = 50; // alpha (~0.2)
+      }
+      ctx.putImageData(imageData, 0, 0);
+      requestAnimationFrame(drawGrain);
     }
     drawGrain();
   </script>
@@ -85,14 +89,30 @@
       <div class="about-subsection">
         <h3>Education</h3>
         <p>
-          I completed my GCSEs at Moulton School and Science College, obtaining 11 GCSEs (6 A*-A, 5 B) and 3 A-Levels (ABB), achieving awards of academic excellence throughout my GCSE study and the Physics Award for Academic Excellence during A-Levels. I am currently pursuing an Mphys in Physics with Astrophysics at the University of Leicester, expected graduation in 2026. Notable modules include General Relativity and Quantum Fields, Supermassive Black Holes and Exoplanets, and Quantum Mechanics, alongside practical coursework in Python programming and data analysis. During my third year I undertook a research project working under Dr Matt Burleigh observing transiting exoplanets and using the photometric decrease in observed flux from a host start to calculate planetary radii. -Add about dissertation here-
+          I completed my GCSEs at Moulton School and Science College, obtaining 11 GCSEs (6 A*-A, 5 B) and 3 A-Levels
+          (ABB), achieving awards of academic excellence throughout my GCSE study and the Physics Award for Academic
+          Excellence during A-Levels. I am currently pursuing an Mphys in Physics with Astrophysics at the University of
+          Leicester, expected graduation in 2026. Notable modules include General Relativity and Quantum Fields,
+          Supermassive Black Holes and Exoplanets, and Quantum Mechanics, alongside practical coursework in Python
+          programming and data analysis. During my third year I undertook a research project working under Dr Matt
+          Burleigh observing transiting exoplanets and using the photometric decrease in observed flux from a host start
+          to calculate planetary radii. In my fourth year of study I am currently conducting a research project
+          investigating the warp of the Milky Way, creating a kinematic map of red clump stars. This project is
+          supervised by Dr Paul McMillan, a world leading expert in the dynamics of galaxies.
 
         </p>
       </div>
       <div class="about-subsection">
         <h3>Hobbies</h3>
         <p>
-          Throughout my life I have had a variety of hobbies and interests, with sports being an integral part of my daily life from a young age. Competing in football for different teams my entire life, climbing for over 5 years, and now at university competing nationally in both swimming and dodgeball. Since beginning university I sparked an interest in astrophotography, using the University of Leicester's observatory to take long exposure images of night sky subjects such as Orions Nebula and the solar system's planets. Beyond my photography and sporting interests, I have always had a strong passion for computing and technology, and have consistently challenged myself to learn new skills in this area, such as building my own computer and learning programming languages such as Python and JavaScript to make websites.
+          Throughout my life I have had a variety of hobbies and interests, with sports being an integral part of my
+          daily life from a young age. Competing in football for different teams my entire life, climbing for over 5
+          years, and now at university competing nationally in both swimming and dodgeball. Since beginning university I
+          sparked an interest in astrophotography, using the University of Leicester's observatory to take long exposure
+          images of night sky subjects such as Orions Nebula and the solar system's planets. Beyond my photography and
+          sporting interests, I have always had a strong passion for computing and technology, and have consistently
+          challenged myself to learn new skills in this area, such as building my own computer and learning programming
+          languages such as Python and JavaScript to make websites.
         </p>
       </div>
       <div class="about-subsection">
@@ -102,8 +122,8 @@
           <span class="skill-tile">JavaScript</span>
           <span class="skill-tile">Telescope Operation and Data Handling</span>
           <span class="skill-tile">LaTeX</span>
-          
-          
+
+
 
 
         </div>
@@ -135,12 +155,41 @@
           <span>Projects</span><span>Projects</span>
         </div>
       </div>
-  </div>
+    </div>
     <div class="projects" id="projects">
       <div class="project-card">
-  <img src="images/transit.png" alt="Transit screenshot">
+        <img src="images/milkyway.png" alt="Project 4 screenshot">
+        <h3 class="project-card-title">Investigating the Warp of the Milky Way</h3>
+        <p class="project-card-description">This project works with a sample of around 9 million red clump stars from <a
+            href="https://www.esa.int/Science_Exploration/Space_Science/Gaia" target="_blank" rel="noopener">Gaia</a>
+          and
+          <a href="https://irsa.ipac.caltech.edu/data/WISE/docs/release/AllWISE/" target="_blank"
+            rel="noopener">AllWISE</a> to analyse the geometry of the Milky Way's warp unbiased by the mid-plane dust.
+          Two kinematic models were compared, one with a fixed line of nodes, and one with a line of nodes that varies
+          linearly with radius. Results are discussed in the poster and report. This project was supervised by <a
+            href="https://paulmcmillan-astro.github.io/" target="_blank" rel="noopener">Dr Paul McMillan</a>
+          .
+        </p>
+        <div class="project-card-actions">
+          <button class="download-report-btn" onclick="downloadMilkyWayPoster()">
+            <i class="fas fa-download"></i>
+            Download Poster
+          </button>
+          <button class="download-report-btn" onclick="downloadMilkyWayReport()">
+            <i class="fas fa-download"></i>
+            Download Report
+          </button>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/transit.png" alt="Transit screenshot">
         <h3 class="project-card-title">Observing Transiting Exoplanets</h3>
-        <p class="project-card-description">Used the Leicester University observatory to calculate the radii of exoplanets HAT-P 61 b, XO-3 b and unpublished candidate exoplanet TOI-3887 using measured decreased flux from their respective host stars. Making conclusions on not only the radius of each star but orbital and planetary characteristics.</p>
+        <p class="project-card-description">A third year BSc project measuring the radii of transiting exoplanets using
+          the University of Leicester observatory. Analysed data from the exoplanets HAT-P 61 b, XO-3 b and unpublished
+          candidate exoplanet TOI-3887 making conclusions on not only the radius of each star but orbital and planetary
+          characteristics. The project was supervised by <a href="https://le.ac.uk/people/matthew-burleigh"
+            target="_blank" rel="noopener">Dr Matthew Burleigh</a>, a researcher in exoplanets discovered by
+          NGST and TESS.</p>
         <div class="project-card-actions">
           <button class="download-report-btn" onclick="downloadReport()">
             <i class="fas fa-download"></i>
@@ -149,28 +198,30 @@
         </div>
       </div>
       <div class="project-card">
-        <img src="images/leaf.png" alt="Project 2 screenshot">
-        <h3 class="project-card-title">Lunar Environment Assessor and Forecaster (LEAF)</h3>
-        <p class="project-card-description">A project making it to the final of Space Park Leicester's Enterprise Challenge, the Lunar Environment Assessor and Forecaster (LEAF) is an application to monitor and predict environmental data on the lunar surface. Working with
-              Meridian Space Command we used Python to create a data prediction model using machine learning.</p>
-      </div>
-      <div class="project-card">
         <img src="images/flowcytometry.png" alt="Project 3 screenshot">
         <h3 class="project-card-title">Investigating Life on School Campus
         </h3>
-        <p class="project-card-description">Founded a research group in collaboration with the University of Cambridge and supported by the Royal Society Partnership Grant to investigate life within Moulton School and Science College's on campus pond. Using a flow cytometer to analyse samples and discuss findings with the Cambridge Institute for Medical Research's Head of Flow Cytometry Dr Reiner Schulte.
-         <br>
-         <a href="https://www.cimr.cam.ac.uk/news/new-home-some-old-equipment-inspire-future-researchers" target="_blank" rel="noopener" style="display:inline-block;margin-top:0.5em;word-break:break-all;">https://www.cimr.cam.ac.uk/news/new-home-some-old-equipment-inspire-future-researchers</a>
-          
-          </p>
+        <p class="project-card-description">Founded a research group in collaboration with the University of Cambridge
+          and supported by the Royal Society Partnership Grant to investigate life within Moulton School and Science
+          College's on campus pond. Using a flow cytometer to analyse samples and discuss findings with the Cambridge
+          Institute for Medical Research's Head of Flow Cytometry Dr Reiner Schulte.
+          <br>
+          <a href="https://www.cimr.cam.ac.uk/news/new-home-some-old-equipment-inspire-future-researchers"
+            target="_blank" rel="noopener"
+            style="display:inline-block;margin-top:0.5em;word-break:break-all;">https://www.cimr.cam.ac.uk/news/new-home-some-old-equipment-inspire-future-researchers</a>
+
+        </p>
       </div>
       <div class="project-card">
-        <img src="images/project4.png" alt="Project 4 screenshot">
-        <h3 class="project-card-title">Project 4</h3>
-        <p class="project-card-description">Description for project 4.</p>
+        <img src="images/leaf.png" alt="Project 2 screenshot">
+        <h3 class="project-card-title">Lunar Environment Assessor and Forecaster (LEAF)</h3>
+        <p class="project-card-description">A project making it to the final of Space Park Leicester's Enterprise
+          Challenge, the Lunar Environment Assessor and Forecaster (LEAF) is an application to monitor and predict
+          environmental data on the lunar surface. Working with
+          Meridian Space Command we used Python to create a data prediction model using machine learning.</p>
       </div>
     </div>
-  <div class="carousel-indicators"></div>
+    <div class="carousel-indicators"></div>
   </section>
   <section id="new-section" class="new-section">
     <!-- empty space section -->
@@ -179,9 +230,10 @@
     <div class="footer-content">
       <div class="footer-name clash">Contact</div>
       <div class="social-links">
-          <a href="https://github.com/J4mesT" class="social-button github" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://linkedin.com/in/jamesturneruk" class="social-button linkedin" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="contact.html" class="social-button message" target="_self" rel="noopener">Message</a>
+        <a href="https://github.com/J4mesT" class="social-button github" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/jamesturneruk" class="social-button linkedin" target="_blank"
+          rel="noopener">LinkedIn</a>
+        <a href="contact.html" class="social-button message" target="_self" rel="noopener">Message</a>
       </div>
       <a href="#home" class="go-to-top">
         <div class="go-to-top-text">Back<br>to top</div>
@@ -207,6 +259,26 @@
       const link = document.createElement('a');
       link.href = 'docs/JTTransitReport.pdf';
       link.download = 'Exoplanet-Transit-Observation-Report.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Download Milky Way Poster function
+    function downloadMilkyWayPoster() {
+      const link = document.createElement('a');
+      link.href = 'docs/MilkyWayPoster.pdf';
+      link.download = 'Milky-Way-Warp-Poster.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Download Milky Way Report function
+    function downloadMilkyWayReport() {
+      const link = document.createElement('a');
+      link.href = 'docs/MilkyWayReport.pdf';
+      link.download = 'Milky-Way-Warp-Report.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -263,4 +335,5 @@
     });
   </script>
 </body>
+
 </html>
